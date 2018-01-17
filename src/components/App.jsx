@@ -37,7 +37,7 @@ class App extends Component {
                                     <div>{reminder.text}</div>
                                     <div><em>{moment(new Date(reminder.dueDate)).fromNow()}</em></div>
                                 </div>
-                                <div className="list-item delete-button" onClick={() => this.props.deleteReminder(reminder.id)}>
+                                <div className="list-item delete-button" onClick={() => this.deleteReminder(reminder.id)}>
                                     &#x2715;
                                 </div>
                             </li>

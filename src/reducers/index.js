@@ -12,8 +12,8 @@ const reminder = (action) => {
 
 const removeById = (state = [], id) => {
     const reminders = state.filter(reminder => reminder.id !== id)
-    console.log('New record reminder: ', reminder)
-    return reminder
+    console.log('New record reminder: ', reminders)
+    return reminders
 }
 
 const reminders = (state = [], action) => {
