@@ -1,0 +1,16 @@
+.form-control, .btn {
+    border-radius: 0!important;
+}
+
+.ul-margin-top {
+    margin-top: 20px;
+}
+
+.list-item {
+    display: inline;
+}
+
+.delete-button {
+    margin-top: -30px;
+    float: right;
+}
